@@ -18,7 +18,25 @@ public class Roguelike : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
+			"Slate",
+			"GameplayTags",
+			"GameplayAbilities",
+			"GameplayTasks",
+			"AnimGraphRuntime",
+			"NavigationSystem",
+			"Niagara",
+			"MovieScene",
+			"MovieSceneTracks",
+			"LevelSequence",
+			"CommonUI",
+			"CommonInput",
+			"PreLoadScreen",
+			"Paper2D",
+			"OnlineSubsystem",
+			"OnlineSubsystemUtils",
+			"OnlineSubsystemSteam",
+			"SignificanceManager",
+			"ModelViewViewModel"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
